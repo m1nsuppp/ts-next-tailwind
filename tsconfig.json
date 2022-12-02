@@ -22,26 +22,12 @@
       {
         "name": "next"
       }
-    ]
-  },
-  "typeRoots": [
-    "types",
-    "node_modules/@types"
-  ],
-  "baseUrl": ".",
-  "paths": {
-    "@/components/*": [
-      "components/*"
     ],
-    "@/ui/*": [
-      "ui/*"
+    "typeRoots": [
+      "types",
+      "node_modules/@types"
     ],
-    "@/lib/*": [
-      "lib/*"
-    ],
-    "@/styles/*": [
-      "styles/*"
-    ],
+    "baseUrl": ".",
   },
   "include": [
     "next-env.d.ts",
@@ -51,5 +37,5 @@
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
 }
