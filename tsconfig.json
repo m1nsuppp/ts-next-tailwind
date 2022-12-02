@@ -23,6 +23,9 @@
         "name": "next"
       }
     ],
+    "types": [
+      "node"
+    ],
     "typeRoots": [
       "types",
       "node_modules/@types"
